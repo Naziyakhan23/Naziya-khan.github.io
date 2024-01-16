@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(145, 145, 227);
+    color: rgb(1, 1, 15);
+    font-weight: bolder;
+    font-style: italic;
+background-color: rgb(31, 79, 97);
+opacity: 0.7;   
+}
+.searchform{
+    display: flex;
+    justify-content: center;
+}
+.cityinput{
+    width: 80%;
+    border:1px solid rgb(36, 16, 101);
+    margin-top: 5px;
+    background: rgb(49, 50, 51);
+    background: linear-gradient(90deg, rgba(75,71,73,1) 0%, rgb(72, 132, 144) 100%);
+    color: rgb(246, 239, 239);
+    opacity: 1;
+}
+.searchbtn{
+    background-color: rgb(59, 104, 122);
+    color: white;
+    padding-top: 2px;
+    border-radius: 10%;
+    margin-left: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.cityinput:hover{
+    border: 1px solid rgb(90, 87, 234);   
+}
+.city-date-sec{
+    text-align: center;
+}
+.temp-info{
+    text-align: center;
+}
+.add-info{
+    text-align: center;
+}
+.weatherapp{
+    background-image: linear-gradient(to right top, #3e5f9b, #365692, #2d4d8a, #254481, #1c3b79, #174684, #0e508f, #005b9a, #007cb8, #009ecf, #00c1e1, #18e3ee);
+opacity: 0.5;
+
+    width: 50%;
+    height: 400px;
+    margin-left: 480px;
+    margin-right: 480px;
+    margin-top: 30px;
+    border-radius: 2%
+}
+.date{
+    font-weight: bold;
+}
+.description-text{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+.temp{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.add-info{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 54px;
+    margin-right: 54px;
+    opacity: 0.8;
+}
+.wind-info, 
+.humidity-info,
+ .visibility-info{
+    background: rgb(64,66,67);
+    background: linear-gradient(292deg, rgba(64,66,67,0.9585084033613446) 0%, rgba(88,105,113,1) 28%, rgb(46, 98, 108) 32%, rgba(41,109,122,1) 33%, rgba(52,119,134,1) 40%, rgb(42, 95, 108) 48%, rgba(61,169,201,1) 59%, rgba(26,85,116,1) 100%);    
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    width:150px;
+    height: 110px;
+    border-radius: 2%;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    margin-right: 53px;
+}
+.add-info .material-icons{
+    font-size: 30px;
+}
+.maincont{
+    display: flex;
+    justify-content: center;
+}
+::placeholder{
+    color: rgb(239, 236, 244);
+    font-weight: bolder;
+    opacity: 1;
+}
+::placeholder pseudo-element{
+    opacity: 1;
+    color: rgb(232, 225, 225);
+    font-weight: bolder;
+}
